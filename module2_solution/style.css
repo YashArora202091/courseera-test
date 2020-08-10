@@ -1,0 +1,171 @@
+h1{
+	color: blue;
+	text-align:center;
+}
+span{
+	float:right;
+	font-size:30px;
+	border:1px solid black;
+
+}
+
+.chicken{
+	background: red;
+	font-style: bold;
+
+}
+.mutton{
+	background: blue;
+    font-style: bold;
+
+}
+.sushi{
+	background: yellow;
+	font-style: bold;
+
+
+}
+div>div{
+	background:grey;
+	box-sizing:border-box;
+	border: 10px solid white;
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+}
+*{
+    box-sizing:border-box;
+}
+@media(min-width:992px){
+	.c-lg-1,.c-lg-2,.c-lg-3,.c-lg-4,.c-lg-5,.c-lg-6,.c-lg-7,.c-lg-8,.c-lg-9,.c-lg-10,.c-lg-11,.c-lg-12
+	{
+		border:5px black;
+		float:left;
+	}
+	.c-lg-1{
+		width:8.33%;
+	}
+	.c-lg-2{
+		width:16.66%;
+	}
+	.c-lg-3{
+		width:25%;
+	}
+	.c-lg-4{
+		width:33.33%;
+		border:10px solid white;
+	}
+	.c-lg-5{
+		width:41.66%;
+	}
+	.c-lg-6{
+		width:50%;
+	}
+	.c-lg-7{
+		width:58.33%;
+	}
+	.c-lg-8{
+		width:66.66%;
+	}
+	.c-lg-9{
+		width:75%;
+	}
+	.c-lg-10{
+		width:83.33%;
+	}
+	.c-lg-11{
+		width:91.66%;
+	}
+	.c-lg-12{
+		width:100%;
+	}
+}
+@media(min-width:768px) and (max-width:991px){
+	.c-md-1,.c-md-2,.c-md-3,.c-md-4,.c-md-5,.c-md-6,.c-md-7,.c-md-8,.c-md-9,.c-md-10,.c-md-11,.c-md-12
+	{
+		border:5px black;
+		float:left;
+	}
+	.c-md-1{
+		width:8.33%;
+	}
+	.c-md-2{
+		width:16.66%;
+	}
+	.c-md-3{
+		width:25%;
+	}
+	.c-md-4{
+		width:33.33%;
+	}
+	.c-md-5{
+		width:41.66%;
+	}
+	.c-md-6{
+		width:50%;
+		border:10px solid white;
+	}
+	}
+	.c-md-7{
+		width:58.33%;
+	}
+	.c-md-8{
+		width:66.66%;
+	}
+	.c-md-9{
+		width:75%;
+	}
+	.c-md-10{
+		width:83.33%;
+	}
+	.c-md-11{
+		width:91.66%;
+	}
+	.c-md-12{
+		width:100%;
+	}
+}
+@media(max-width:767px){
+	.c-s-1,.c-s-2,.c-s-3,.c-s-4,.c-s-5,.c-s-6,.c-s-7,.c-s-8,.c-s-9,.c-s-10,.c-s-11,.c-s-12
+	{
+		border:5px black;
+		float:left;
+	}
+	.c-s-1{
+		width:8.33%;
+	}
+	.c-s-2{
+		width:16.66%;
+	}
+	.c-s-3{
+		width:25%;
+	}
+	.c-s-4{
+		width:33.33%;
+	}
+	.c-s-5{
+		width:41.66%;
+	}
+	.c-s-6{
+		width:50%;
+	}
+	.c-s-7{
+		width:58.33%;
+	}
+	.c-s-8{
+		width:66.66%;
+	}
+	.c-s-9{
+		width:75%;
+	}
+	.c-s-10{
+		width:83.33%;
+	}
+	.c-s-11{
+		width:91.66%;
+	}
+	.c-s-12{
+		width:100%;
+		border:10px solid white;
+	}
+	}
+}
